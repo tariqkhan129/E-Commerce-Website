@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #ffff;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #555;
+    border-radius: 40px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 50px;
+    height: 90px;
+    width: 100%;
+    /* transition: 0.5s; */
+    /* position: fixed; */
+    /* z-index: 9999; */
+        background-color: #aba3a3;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar a {
+    color: #080c13;
+}
+
+
+
+nav .logo img {
+    width: 100px;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.nav-item li a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 17px;
+    text-transform: capitalize !important;
+}
+
+nav .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+nav .buttons a {
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: 30px;
+    border: 1px solid #fff;
+    color: #080c13;
+    padding: 10px 30px;
+    margin-left: 10px;
+    transition: 0.2s;
+}
+
+
+nav .buttons a:hover {
+    color: #fff;
+    background: transparent;
+}
